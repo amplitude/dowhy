@@ -4,6 +4,7 @@ import numpy as np
 import pandas as pd
 
 import matplotlib
+matplotlib.use('PS')
 import matplotlib.pyplot as plt
 
 from dowhy.causal_refuter import CausalRefutation
